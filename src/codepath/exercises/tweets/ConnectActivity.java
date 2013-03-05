@@ -14,24 +14,24 @@ public class ConnectActivity extends OAuthLoginActivity<TwitterClient> {
 	}
 
 	// Triggered automatically when twitter authentication is successful
-    @Override
-    public void onLoginSuccess() {
-    	// We should probably launch the main timeline view on twitter success
-    }
-    
-    // Triggered automatically if twitter authentication fails
-    @Override
-    public void onLoginFailure(Exception e) {
-        e.printStackTrace();
-    }
-	
+	@Override
+	public void onLoginSuccess() {
+		// We should probably launch the main timeline view on twitter success
+	}
+
+	// Triggered automatically if twitter authentication fails
+	@Override
+	public void onLoginFailure(Exception e) {
+		e.printStackTrace();
+	}
+
 	// This method should be used as the onClick handler for a "Connect" button
-	// Triggers an auto-connect function built into TwitterClient 
+	// Triggers an auto-connect function built into TwitterClient
 	// which prompts users to sign into twitter so we can access the twitter API.
-    public void loginToTwitter(View view) {
-        getClient().connect();
-    }
-    
+	public void loginToTwitter(View view) {
+		getClient().connect();
+	}
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
