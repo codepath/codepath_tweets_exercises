@@ -1,0 +1,8 @@
+  - SigninActivity
+    - Add various labels
+    - Demonstrate match_parent, wrap_content
+    - Demonstrate linear layout, horizontal and vertial
+    - Demonstrate nested layouts
+    - Demonstrate relational layout as container
+  - Use Twitter single-access token
+    - Print home timeline tweets to the console
