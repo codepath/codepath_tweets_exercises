@@ -1,7 +1,6 @@
 package codepath.exercises.tweets;
 
-import codepath.exercises.scaffold.OAuthLoginActivity;
-import codepath.exercises.scaffold.TwitterClient;
+import codepath.oauth.*;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
