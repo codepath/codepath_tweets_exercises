@@ -1,3 +1,4 @@
 auto: true
 permalink: /:title
 pygments: true
+base_url: http://thecodepath.github.com/codepath_tweets_exercises/
