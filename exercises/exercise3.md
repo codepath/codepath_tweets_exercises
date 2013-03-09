@@ -56,6 +56,6 @@ public class TimelineAdapter extends ArrayAdapter<Tweet> {
 
 ### Benchmarks
 
-<img src="{{ HOME_PATH }}/images/compose.png" alt="Compose Screen" width="400" height="453" />
+<img src="../images/compose.png" alt="Compose Screen" width="400" height="453" />
 
 TODO: Add a screenshot w/ a very basic tweet view
