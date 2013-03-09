@@ -54,5 +54,5 @@ Adding a click handler to a Button via XML
 
 See other benchmarks for login screens [here](http://www.android-app-patterns.com/category/start-screen).
 
-<img src="/images/twitter_login.jpg" alt="Twitter Login Screen" height="400" />
-<img src="/images/path_login.jpg" alt="Path Login Screen" height="400"  />
+<img src="{{ HOME_PATH }}/images/twitter_login.jpg" alt="Twitter Login Screen" height="400" />
+<img src="{{ HOME_PATH }}/images/path_login.jpg" alt="Path Login Screen" height="400"  />

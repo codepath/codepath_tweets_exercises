@@ -17,22 +17,22 @@ By the end of this project, you should be familiar with a wide variety of Androi
 
 This is the screen that allows the user to connect to Twitter.
 
-<img src="/images/login.png" alt="Login Screen" width="400" height="453" />
+<img src="{{ HOME_PATH }}/images/login.png" alt="Login Screen" width="400" height="453" />
 
 ### Home Timeline
 
 This is the home timeline view for the signed in user.
 
-<img src="/images/timeline.png" alt="Home Timeline Screen" width="400" height="453" />
+<img src="{{ HOME_PATH }}/images/timeline.png" alt="Home Timeline Screen" width="400" height="453" />
 
 ### Tweet
 
 This is the detailed tweet view.
 
-<img src="/images/tweet.png" alt="Tweet Screen" width="400" height="453" />
+<img src="{{ HOME_PATH }}/images/tweet.png" alt="Tweet Screen" width="400" height="453" />
 
 ### Compose
 
 This is the compose a tweet view.
 
-<img src="/images/compose.png" alt="Compose Screen" width="400" height="453" />
+<img src="{{ HOME_PATH }}/images/compose.png" alt="Compose Screen" width="400" height="453" />
