@@ -1,4 +1,0 @@
-- Handle media tweets
-    - Dynamically download and insert images
-  - Style tweet cells
-    - Layout and download profile images

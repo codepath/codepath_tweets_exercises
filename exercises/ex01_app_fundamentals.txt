@@ -1,6 +1,0 @@
- - Name the app
-  - Set the icon of the app to some image (student downloads image)
-  - Add a TextView
-  - Add a Button
-    - Button name is from string resource.
-  - Log onCreate, onPause
