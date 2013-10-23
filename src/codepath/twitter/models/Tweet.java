@@ -6,7 +6,11 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-public class Tweet extends BaseModel {
+public class Tweet {
+	private String body;
+	private long uid;
+	private boolean favorited;
+	private boolean retweeted;
     private User user;
 
     public User getUser() {
@@ -14,25 +18,28 @@ public class Tweet extends BaseModel {
     }
 
     public String getBody() {
-        return getString("text");
+        return body;
     }
 
     public long getId() {
-        return getLong("id");
+        return uid;
     }
 
     public boolean isFavorited() {
-        return getBoolean("favorited");
+        return favorited;
     }
 
     public boolean isRetweeted() {
-        return getBoolean("retweeted");
+        return retweeted;
     }
 
     public static Tweet fromJson(JSONObject jsonObject) {
         Tweet tweet = new Tweet();
         try {
-            tweet.jsonObject = jsonObject;
+        	tweet.body = jsonObject.getString("text");
+        	tweet.uid = jsonObject.getLong("id");
+        	tweet.favorited = jsonObject.getBoolean("favorited");
+        	tweet.retweeted = jsonObject.getBoolean("retweeted");
             tweet.user = User.fromJson(jsonObject.getJSONObject("user"));
         } catch (JSONException e) {
             e.printStackTrace();
