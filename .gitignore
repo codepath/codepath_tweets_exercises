@@ -2,3 +2,9 @@
 /gen
 .idea/*
 _site/*
+
+# Android Studio project files
+*.iml
+.gradle
+build
+import-summary.txt
