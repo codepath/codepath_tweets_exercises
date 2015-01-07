@@ -31,5 +31,5 @@ Use the code below to log a message in an activity.
 Log.d("DEBUG", "This message should appear in the LogCat.");
 {% endhighlight %}
 
-[1]: https://github.com/thecodepath/codepath_tweets_exercises
+[1]: https://github.com/codepath/codepath_tweets_exercises
 [2]: http://android-ui-utils.googlecode.com/hg/asset-studio/dist/icons-launcher.html
