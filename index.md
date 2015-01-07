@@ -5,7 +5,7 @@ title: CodePath Tweet Exercises
 
 ## Android Twitter Project Overview
 
-The goal of this project is to create a basic Twitter client by following a series of exercises. This project is appropriate for someone just starting out with Android development and is following along with the CodePath Android curriculum.
+The goal of this project is to create a simple Twitter client by following a series of exercises. This project is appropriate for someone just starting out with Android development and is following along with the CodePath Android curriculum.
 
 The Twitter client will allow you to log in, view your home timeline, compose a tweet, and view a user profile. Additionally, in the tweet view, you can perform additional actions such as reply, retweet, and favorite.
 
